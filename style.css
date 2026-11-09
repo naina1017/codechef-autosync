@@ -1,0 +1,70 @@
+
+body {
+    width: 340px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: #e87524;
+}
+
+p {
+    font-size: 13px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-top: 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input:not([type="checkbox"]),
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 150px;
+    font-family: monospace;
+    resize: vertical;
+}
+
+button {
+    width: 100%;
+    padding: 11px;
+    margin-top: 12px;
+    background: #e87524;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #c85c13;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-weight: normal;
+}
+
+hr {
+    margin-top: 18px;
+}
+
+#status {
+    overflow-wrap: anywhere;
+    margin-top: 12px;
+}

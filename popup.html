@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CodeChef AutoSync</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>CodeChef AutoSync</h2>
+    <p>Save your accepted solutions to GitHub.</p>
+
+    <label>GitHub Username</label>
+    <input id="username" placeholder="Your GitHub username">
+
+    <label>Repository Name</label>
+    <input id="repo" value="codechef">
+
+    <label>GitHub Personal Access Token</label>
+    <input
+        id="token"
+        type="password"
+        placeholder="Paste your GitHub token"
+    >
+
+    <button id="saveBtn">Save GitHub Settings</button>
+
+    <hr>
+
+    <label>Problem Name / Code</label>
+    <input id="problem" placeholder="Example: OP CPP125">
+
+    <label>Your C++ Solution</label>
+    <textarea
+        id="codeInput"
+        placeholder="Paste your accepted C++ code here..."
+    ></textarea>
+
+    <label class="check">
+        <input type="checkbox" id="accepted">
+        I confirm this submission was Accepted.
+    </label>
+
+    <button id="uploadBtn">Upload to GitHub</button>
+
+    <p id="status">Ready!</p>
+
+    <script src="popup.js"></script>
+
+</body>
+</html>
